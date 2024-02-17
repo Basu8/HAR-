@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Learning Model Prediction</title>
+    <link rel="stylesheet" href="..\static\style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>Deep Learning Model</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Deep Learning Model Prediction</h1>
+    <input type="file" id="fileUpload" accept="image/*">
+    <div class="predictionButtonContainer">
+        <button onclick="predict()">Predict</button>
+    </div>
+    <div id="result"></div>
+    <img id="uploadedImage" src="#" alt="Uploaded Image" style="display:none; max-width: 300px; margin-top: 20px;margin-left: 550px;">
+    <script src="..\static\script.js"></script>
+</body>
+</html>
